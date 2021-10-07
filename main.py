@@ -47,8 +47,8 @@ for i in range(10):
     new_painter.speed("fastest")
     hirst_team.append(new_painter)
 
-for i in range(10):
-    for dot in hirst_team:
+for dot in hirst_team:
+    for i in range(10):
         dot_go(dot, choice(random_color))
 
 my_screen.exitonclick()
